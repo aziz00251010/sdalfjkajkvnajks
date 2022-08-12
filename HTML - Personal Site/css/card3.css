@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    background: #040303;
+}
+
+header {
+    background: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 100%;
+    float: right;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    box-sizing: 15px #fff;
+    box-shadow: 0 0 20px #040303;
+
+
+}
+
+nav {
+    width: 1600px;
+    margin-left: 200px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #040303;
+    text-decoration: none;
+    text-shadow: 0 0 20px #313131;
+    font-size: 45px;
+    position: relative;
+}
+
+nav ul li a .material-symbols-outlined {
+    font-size: 30px;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #40DFEF;
+    transition: width 0.3s;
+
+}
+
+nav ul li a:hover::after {
+    width: 80%;
+
+}
+
+.note {
+    background: #fff;
+    text-align: center;
+    margin-top: 10%;
+    border: 1px solid #fff;
+    width: 600px;
+    margin-left: 10%;
+    border-radius: 5%;
+}
+h1 {
+    color: #040303;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.note p {
+    color: #040303;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.search-bar {
+    width: 100%;
+    margin-right: 100px;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    box-shadow: 0 0 10px #313131;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+.search-bar input:hover {
+    background: transparent;
+}
+
+::placeholder {
+    color: aqua;
+}
+
+.search-bar button img {
+    width: 25px;
+    height: 25px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.footer1 {
+    text-align: center;
+    color: #313131;
+    background: #fff;
+    padding: 10px 10px;
+    border-top: 0.1px solid#fff;
+    text-shadow: 0 0 20px #040303;
+}
+.note11 {
+    display: inline-flex;
+    margin-bottom: 5%;
+}
+.imga{
+margin-top: 20%;
+}

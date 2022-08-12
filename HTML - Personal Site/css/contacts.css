@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #040303;
+}
+.hero{
+    margin-top: -150px;
+    width: 100%;
+    height: 100vh;
+    background-color: #040303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero ul{
+    border-radius:15px;
+    width: 30%;
+    border: 0.2px solid black;
+    box-shadow: 0 0 25px #fff;
+    background:linear-gradient(rgba(52, 41, 41, 0.2),rgba(64, 49, 49, 0.2));
+}
+.hero ul:hover{
+    box-shadow: 0 0 25px aqua;
+    
+   
+}
+.hero ul li{
+    list-style: none;
+    display: flex;
+    
+}
+.hero ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+    
+} 
+.hero ul li a:hover{
+    color: aqua;
+    border-bottom: 2px ;
+    text-shadow: 0 0 4px #fff;
+}
+i{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#face:hover{
+    color: blue;
+}
+#yout:hover{
+    color: red;
+}
+#what:hover{
+    color: green;
+}
+#h1111{
+    padding-top:  0px;
+    -webkit-text-stroke: 1px #040303;
+    color: transparent;
+    text-align: center;
+    font-size: 70px;
+    background: #fff;
+    text-shadow: 0 0 10px #040303;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-top:  20px;
+}
+.text ul li {
+    text-align: center;
+    margin-top: 30px;
+}
+.text ul li a{
+   
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+.text ul li a:hover{
+    color: aqua;
+}
+.footer1 {
+    text-align: center;
+    color: #313131;
+    background: #fff;
+    padding: 10px 10px;
+    border-top: 0.1px solid#fff;
+    box-sizing: 70%;
+    text-shadow: 0 0 20px #040303;
+    margin-top: -95px;
+}

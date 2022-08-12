@@ -1,0 +1,236 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body{
+    background: #fff;
+  
+  }
+  header{
+    background: #fff;
+  }
+  .contanier{
+    background: #040303;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .logo{
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 100%;
+    float: right;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    box-sizing: 15px #fff;
+    box-shadow: 0 0 20px #040303;
+  
+   
+  }
+  nav{
+    width: 1600px;
+    margin-left: 200px;
+  }
+  nav ul {
+    flex: 1;
+    text-align:left; 
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+  }
+  nav ul li a {
+    color:#040303;
+    text-decoration: none;
+    text-shadow: 0 0 20px #313131;
+    font-size: 45px;
+    position: relative;
+  }
+  nav ul li a .material-symbols-outlined {
+    font-size: 30px;
+  }
+  nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #40DFEF;
+    transition: width 0.3s;
+   
+  }
+  
+  nav ul li a:hover::after{
+    width: 80%;
+    
+  }
+  .text-box {
+    display: flex;
+    color:#fff;
+    height: 88%;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: -10%;
+  margin-bottom: 3%;
+    
+  }
+  .col{
+  flex-basis: 40%;
+  padding-left: 10%;
+  margin-top: 13%;
+  
+  }
+  .text-box h1{
+    text-align: right;
+    font-size: 100px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+    background: url("../images/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+  }
+  
+  
+  .text-box h2{
+    font-size: 40px;
+    color: #F9F6F7;
+    text-align: right;
+  }
+  .text-box #colol{
+    margin-top: 20px;
+    font-size: xx-large;
+    width: 720px;
+    color: #EEEEEE;
+    text-align: right;
+  }
+  
+  @keyframes back{
+    100%{
+      background-position: 2000px 0;
+    }
+  }
+  .card{
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+   
+  }
+  .card:hover{
+    box-shadow: 0 0 15px aqua;
+  }
+  .card1{
+  background:#212121;
+  box-sizing: border-box;
+  border: 0.1px solid #212121;
+  }
+  .card2 {
+    background: #212121;
+    box-sizing: border-box;
+    border: 0.1px solid #212121;
+  }
+  .card3 {
+    background:#212121;
+    box-sizing: border-box;
+    border: 0.1px solid #212121;
+  }
+  .card4 {
+    background: #212121;
+    box-sizing: border-box;
+    border: 1px solid #212121;
+  }
+  
+  .card:hover{
+    transform: translateY(-10px);
+  }
+  .image{
+    width: 200px;
+    height: 200px;
+    float: right;
+    align-items: center;
+    padding-right: 25px;
+  }
+  .col{
+    text-align: center;
+    margin-right: -200px;
+    margin-left: 100px;
+  }
+  .col h5{
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0 0 15px #040303;
+  }
+
+  .col p{
+    color: #fff ;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+  .col a {
+    text-decoration: none;
+  }
+  .footer1{
+    text-align: center;
+    color: #313131;
+    background: #fff;
+    padding: 10px 10px;
+    border-top: 0.1px solid#fff;
+    box-sizing: 70%;
+    text-shadow: 0 0 20px #040303;
+  }
+  .search-bar{
+    width: 100%;
+    margin-right: 100px;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    box-shadow: 0 0 10px #313131;
+  }
+  .search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+  }
+  .search-bar input:hover{
+    background: transparent;
+  }
+  ::placeholder{
+    color: aqua;
+  }
+  .search-bar button img{
+    width: 25px;
+    height: 25px;
+  }
+  .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    cursor: pointer;
+  }
